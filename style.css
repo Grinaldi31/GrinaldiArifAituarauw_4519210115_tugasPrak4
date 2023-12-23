@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navi {
+    background-color: #1c4ec4;
+    overflow: hidden;
+    height: 60px;
+}
+
+.navi a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 30px ;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navi a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.navi a:active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.split {
+    float: left;
+    color: white;
+    width: 120px;
+    padding: 10px;
+    margin-left: 70px;
+}
+
+
+.sectionone {
+    position: relative; 
+    width: 600px;
+    padding: 70px;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+}
+
+.sectionone p {
+    margin-top: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.sectiontwo {
+    margin-top: 10px;
+    position: relative; 
+    width: 100%px;
+    min-height: 50vh;
+    padding-left: 100px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1c4ec4;
+}
+
+.left {
+    float: left;
+}
+
+.left img {
+    width: 300px;
+    margin-left: 50px;
+}
+
+
+.right {
+    float: right;
+    margin-left: 200px;
+}
+
+.right h1 {
+    color: white;
+  }
+  
+.right p {
+    padding-top: 20px;
+    line-height: 40px;
+    color: white;
+    text-align: justify;
+}
+
+footer {
+    position: static;
+    padding-top: 40px;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #123c9f;
+    color: white;
+    text-align: center;
+}
